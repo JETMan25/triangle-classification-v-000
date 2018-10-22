@@ -1,3 +1,10 @@
 class Triangle
-  # write code here
+ attr_accessor :equilateral, :isosceles, :scalene
+ 
+ def kind 
+   @equilateral = equilateral
+   @isosceles = isosceles
+   @scalene = scalene
+ end
+ 
 end
